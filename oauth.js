@@ -30,6 +30,7 @@ const processEntries = () => {
         "method": "GET",
         "timeout": 0,
         "headers": {
+          "Access-Control-Allow-Origin: *",
           "Authorization": "Bearer " + acc_token
         },
       };
