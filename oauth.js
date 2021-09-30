@@ -9,7 +9,8 @@ const processEntries = () => {
   xhr.open("POST", url);
 
   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-  xhr.setRequestHeader("Authorization", "Basic cklidUZWZXJ6cmRGUE5YWlNRN2hsdy4uOkdELXMyRmw5S0NfSE1TU0R1X2psZ3cuLg==");
+//  xhr.setRequestHeader("Authorization", "Basic cklidUZWZXJ6cmRGUE5YWlNRN2hsdy4uOkdELXMyRmw5S0NfSE1TU0R1X2psZ3cuLg==");
+  xhr.setRequestHeader("Authorization", "Basic QXJ5UjJkYUdLN2M1ZU5tMVp6UmtLZy4uOlU4WmRTclJXWnhUcUw5YlF1REpkZlEuLg==");
 
   var data = "grant_type=client_credentials";
 
@@ -33,7 +34,6 @@ const processEntries = () => {
           "Authorization": "Bearer " + acc_token
         },
       };
-      
       $.ajax(settings).done(function (response) {
         console.log(response);
       });
