@@ -3,12 +3,12 @@ body {
     background-color: white;
     margin: 0 auto;
     width: 600px;
-    border: 3px solid blue;
+    border: 3px solid rgb(114, 114, 173);
     padding: 0 2em 1em;
 }
 
 h1 {
-    color: blue;
+    color: rgb(91, 91, 184);
 }
 
 div {
